@@ -1,0 +1,41 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <!-- Sélecteur de langue à gauche du titre -->
+            <div class="language-selector-header">
+                {{ range .Site.Languages }}
+                    {{ if ne . $.Site.Language }}
+                        {{ if eq .Lang "fr" }}
+                            <a href="{{ $.Page.RelPermalink | strings.TrimPrefix "/en" }}" title="Français" class="lang-flag">🇫🇷</a>
+                        {{ else if eq .Lang "en" }}
+                            <a href="/{{ .Lang }}{{ $.Page.RelPermalink }}" title="English" class="lang-flag">🇬🇧</a>
+                        {{ end }}
+                    {{ else }}
+                        {{ if eq .Lang "fr" }}
+                            <span class="lang-flag-header current" title="Français">🇫🇷</span>
+                        {{ else if eq .Lang "en" }}
+                            <span class="lang-flag-header current" title="English">🇬🇧</span>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+            
+            <h1 class="site-title">
+                <div>{{ i18n "header.tagline" }}</div>
+            </h1>
+            
+            <nav class="site-nav">
+                <div class="nav-flex">
+                    <input type="checkbox" id="menu-toggle"/>
+                    <label for="menu-toggle" class="menu-icon">☰</label>
+                    <ul class="menu">
+                        {{ range .Site.Menus.main }}
+                            <li><a href="{{ .URL }}">{{ i18n .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+

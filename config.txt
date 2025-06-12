@@ -1,0 +1,42 @@
+baseURL = 'http://jcploquin.free.fr'
+languageCode = 'fr'
+
+title = "Jean-Christophe Ploquin & Arthur Gyl : les deux faces d'un artiste"
+
+[params]
+  description = "Musique haptique et installations immersives"
+  author = "Jean-Christophe Ploquin"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Musique"
+    url = "/musique/"
+    weight = 2
+  [[menu.main]]
+    name = "Biographie"
+    url = "/about/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+  [[menu.main]]
+    name = "Littérature"
+    url = "/litterature/"
+    weight = 3
+  [[menu.main]]
+    name = "Jeux vidéos"
+    url = "/jeux/"
+    weight = 4
+	[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5

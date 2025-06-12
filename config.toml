@@ -1,0 +1,112 @@
+baseURL = "http://jcploquin.free.fr/"
+languageCode = "fr"
+title = "Jean-Christophe Ploquin & Arthur Gyl : les deux faces d'un artiste"
+theme = ""
+
+# Configuration multilingue
+defaultContentLanguage = "fr"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+    title = "Jean-Christophe Ploquin & Arthur Gyl : les deux faces d'un artiste"
+    
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "home"
+        name = "nav.home"
+        url = "/"
+        weight = 1
+      [[languages.fr.menu.main]]
+        identifier = "music"
+        name = "nav.music"
+        url = "/musique/"
+        weight = 2
+      [[languages.fr.menu.main]]
+        identifier = "literature"
+        name = "nav.literature"
+        url = "/litterature/"
+        weight = 3
+      [[languages.fr.menu.main]]
+        identifier = "games"
+        name = "nav.games"
+        url = "/jeux/"
+        weight = 4
+      [[languages.fr.menu.main]]
+        identifier = "biography"
+        name = "nav.biography"
+        url = "/about/"
+        weight = 5
+      [[languages.fr.menu.main]]
+        identifier = "contact"
+        name = "nav.contact"
+        url = "/contact/"
+        weight = 6
+      [[languages.fr.menu.main]]
+        identifier = "blog"
+        name = "nav.blog"
+        url = "/blog/"
+        weight = 7
+    
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "Jean-Christophe Ploquin & Arthur Gyl: two faces of an artist"
+    
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "nav.home"
+        url = "/en/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "music"
+        name = "nav.music"
+        url = "/en/musique/"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "literature"
+        name = "nav.literature"
+        url = "/en/litterature/"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "games"
+        name = "nav.games"
+        url = "/en/jeux/"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "biography"
+        name = "nav.biography"
+        url = "/en/about/"
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "nav.contact"
+        url = "/en/contact/"
+        weight = 6
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "nav.blog"
+        url = "/en/blog/"
+        weight = 7
+
+[params]
+description = "Musique haptique et installations immersives"
+author = "Jean-Christophe Ploquin"
+
+# Configuration des permaliens pour le multilingue
+[permalinks]
+  blog = "/blog/:slug/"
+  
+# Configuration des formats de sortie
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+

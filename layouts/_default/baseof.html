@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+   <meta name="description" content="{{ .Site.Params.description }}">
+   <link rel="stylesheet" href="/css/style.css">
+   <script data-goatcounter="https://jcploquin.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<script>
+window.addEventListener('scroll', function() {
+  const aLaUne = document.getElementById('a-la-une');
+  const header = document.querySelector('.site-header');
+  if (!aLaUne || !header) return;
+  const headerHeight = header.offsetHeight;
+  const scrollY = window.scrollY;
+
+  if (scrollY < 100) {
+    aLaUne.classList.add('floating');
+    aLaUne.style.top = headerHeight + 'px';
+  } else {
+    aLaUne.classList.remove('floating');
+    aLaUne.style.top = '';
+  }
+});
+</script>
+
+<body>
+    {{ partial "header.html" . }}
+
+    {{ if .IsHome }}
+        <div class="banner-hero">
+            <img src="/img/banniere.jpg" alt="Bannière" class="banner-img">
+            <div class="banner-overlay">
+                <div class="bloc-ploquin">
+                    <h1>{{ i18n "banner.jcp.title" }}</h1>
+                    <h2>{{ i18n "banner.jcp.subtitle" }}</h2>
+                </div>
+                <div class="bloc-gyl">
+                    <h1>{{ i18n "banner.ag.title" }}</h1>
+                    <h2>{{ i18n "banner.ag.subtitle" }}</h2>
+                </div>
+            </div>
+        </div>
+    {{ else }}
+        <div class="banner-slice">
+            <img src="/img/banniere-tranche.jpg" alt="Bandeau graphique" class="banner-slice-img">
+        </div>
+    {{ end }}
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ block "scripts" . }}{{ end }}
+</body>
+</html>
+

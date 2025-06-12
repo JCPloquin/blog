@@ -1,0 +1,110 @@
+key,fr,en
+# Navigation principale
+nav.home,Accueil,Home
+nav.music,Musique,Music
+nav.literature,Littérature,Literature
+nav.games,Jeux vidéos,Video Games
+nav.biography,Biographie,Biography
+nav.contact,Contact,Contact
+nav.blog,Blog,Blog
+
+# En-tête et bannière
+header.tagline,DEUX FACES POUR UN ARTISTE,TWO FACES OF AN ARTIST
+banner.jcp.title,Jean-Christophe Ploquin,Jean-Christophe Ploquin
+banner.jcp.subtitle,Compositeur Électroacoustique,Electroacoustic Composer
+banner.ag.title,Arthur Gyl,Arthur Gyl
+banner.ag.subtitle,Écrivain de Science-Fiction,Science Fiction Writer
+
+# Section "À la une"
+news.title,À la une,Featured
+news.ascendance.text,Découvrez le teaser de mon nouveau jeu musical !,Discover the teaser of my new musical game!
+news.ascendance.button,Voir le teaser,See the teaser
+
+# Blog
+blog.articles,Articles,Articles
+blog.recent_articles,Articles récents,Recent Articles
+blog.no_articles,Aucun article pour le moment.,No articles at the moment.
+blog.read_more,Lire la suite →,Read more →
+blog.published_on,Publié le,Published on
+
+# Dates et formats
+date.format,"2 janvier 2006","January 2, 2006"
+
+# Musique
+music.composer.title,Compositeur électroacoustique,Electroacoustic Composer
+music.composer.description,"Passionné par l'exploration sonore et la composition contemporaine, je développe un univers électroacoustique singulier, mêlant textures immersives et expérimentations interactives.","Passionate about sound exploration and contemporary composition, I develop a unique electroacoustic universe, blending immersive textures and interactive experiments."
+music.ascendance.title,Ascendance - Teaser exclusif,Ascendance - Exclusive Teaser
+music.ascendance.description,"Prenez les commandes d'un vaisseau temporel pour explorer les généalogies. La musique s'adapte à chaque arbre généalogique dans ce jeu unique mêlant électroacoustique et généalogie.","Take control of a time ship to explore genealogies. Music adapts to each family tree in this unique game blending electroacoustic and genealogy."
+music.ascendance.available,Bientôt disponible sur itch.io,Soon available on itch.io
+music.ascendance.adaptive,Musique adaptative et immersive,Adaptive and immersive music
+music.ascendance.gameplay,Gameplay innovant,Innovative gameplay
+music.ascendance.follow,Suivre le développement sur itch.io,Follow development on itch.io
+music.albums.acousmatic,Albums acousmatiques,Acousmatic Albums
+music.guitarist.title,Guitariste,Guitarist
+music.guitarist.description,"La guitare, c'est mon autre voix : du fingerpicking blues à la musique celtique, j'explore les cordes comme on explore des mondes, toujours à la recherche de nouvelles couleurs et de liberté sonore.","Guitar is my other voice: from fingerpicking blues to Celtic music, I explore strings like exploring worlds, always searching for new colors and sonic freedom."
+music.albums.guitar,Albums de guitare,Guitar Albums
+
+# Littérature
+literature.arthur.title,Arthur Gyl : l'autre moi,Arthur Gyl: the other me
+literature.arthur.description,"Passionné par l'imaginaire et les mondes futurs, j'explore dans mes romans et nouvelles les frontières entre science, humanité et destin.","Passionate about imagination and future worlds, I explore in my novels and short stories the boundaries between science, humanity and destiny."
+literature.cycle.title,Le cycle « De la mort à la vie »,The "From Death to Life" cycle
+literature.extracts,Extraits,Excerpts
+literature.books.sale,Livres en vente,Books for sale
+literature.digital.offer,Offre spéciale : version numérique offerte,Special offer: digital version included
+literature.digital.description,"Pour tout achat du livre papier, envoyez-moi votre facture ou ticket de caisse via le formulaire et recevez gratuitement la version epub !","For any paperbook purchase, send me your invoice or receipt via the form and receive the epub version for free!"
+literature.buy.paper,Acheter en papier,Buy paperback
+literature.buy.epub,Acheter en epub,Buy epub
+literature.shipping,+ frais d'envoi,+ shipping
+
+# Jeux vidéo
+games.creator.title,Créateur de jeux vidéo,Video Game Creator
+games.creator.description,"Passionné par l'interactivité et la narration, je conçois des jeux vidéo où la musique, le scénario et l'expérience immersive se rejoignent.","Passionate about interactivity and storytelling, I design video games where music, scenario and immersive experience come together."
+games.adaptation.description,"Mes jeux vidéos sont des adaptations de mes oeuvres originales créées en expositions interactives dans la réalité. Un nouveau media où l'auditeur est actif !","My video games are adaptations of my original works created in interactive exhibitions in reality. A new medium where the listener is active!"
+games.purpose,"Mon propos est de rendre ludique l'approche de la musique contemporaine, notamment l'acousmatique, à travers l'interaction directe.","My purpose is to make the approach to contemporary music, particularly acousmatic, playful through direct interaction."
+games.my_games,Mes jeux,My Games
+games.bilingual,"Tous mes jeux sont bilingues français | anglais et en version Linux et Windows.","All my games are bilingual French | English and available for Linux and Windows."
+games.audio.recommendation,"Un casque audio ou un dispositif surround 5.1 est recommandé.","Headphones or a 5.1 surround system is recommended."
+games.download.free,Téléchargement gratuit,Free download
+games.soon.available,Bientôt disponible,Soon available
+
+# Contact
+contact.description,"Pour toute question, projet ou proposition, utilisez le formulaire ci-dessous ou contactez-moi via les réseaux sociaux.","For any question, project or proposal, use the form below or contact me via social networks."
+contact.social.networks,Réseaux sociaux,Social Networks
+contact.rates.title,Tarifs indicatifs,Indicative Rates
+contact.rates.minimum,"Cachet minimum brut : 156 € brut pour un engagement ponctuel d'une durée inférieure ou égale à 3 heures","Minimum gross fee: €156 gross for a one-time engagement lasting 3 hours or less"
+contact.rates.rehearsal,"Répétition : 56 € brut pour une séance jusqu'à 3 heures","Rehearsal: €56 gross for a session up to 3 hours"
+contact.rates.travel,"Indemnité kilométrique (IK) : 0,50 €/km parcouru aller-retour, ou remboursement du billet de train/avion en classe économique.","Travel allowance: €0.50/km round trip, or reimbursement of train/plane ticket in economy class."
+contact.rates.meals,"Frais de bouche : 20 € par repas si celui-ci n'est pas fourni par l'organisateur","Meal expenses: €20 per meal if not provided by the organizer"
+contact.rates.accommodation,"Hébergement à la charge de l'organisateur si la prestation nécessite un déplacement avec nuitée.","Accommodation at the organizer's expense if the service requires travel with overnight stay."
+contact.rates.additional,"Les frais de déplacement, de bouche et d'hébergement sont en plus du cachet.","Travel, meal and accommodation expenses are in addition to the fee."
+contact.rates.policy,"Je ne fais pas de concerts \"contre un repas\" : la musique est un métier, pas un loisir !","I don't do concerts \"for a meal\": music is a profession, not a hobby!"
+
+# Panier et e-commerce
+cart.title,Votre panier,Your cart
+cart.empty,Votre panier est vide.,Your cart is empty.
+cart.price,Prix,Price
+cart.add,Ajouter au panier,Add to cart
+cart.added,a été ajouté au panier !,has been added to cart!
+cart.delivery.mode,Mode de livraison,Delivery mode
+cart.delivery.home,Livraison à domicile,Home delivery
+cart.delivery.pickup,Point relais,Pickup point
+cart.shipping.costs,Frais de port,Shipping costs
+cart.total,Total à régler,Total to pay
+cart.continue,Continuer vos achats,Continue shopping
+cart.validate,Valider le panier,Validate cart
+cart.order.title,Votre commande,Your order
+cart.copy.text,Copiez ce texte,Copy this text
+cart.copy.instructions,"1. Copiez le texte ci-dessus (sélectionnez + Ctrl+C)","1. Copy the text above (select + Ctrl+C)"
+cart.form.instructions,"2. Cliquez sur le bouton ci-dessous","2. Click the button below"
+cart.paste.instructions,"3. Collez votre commande dans le formulaire (Ctrl+V)","3. Paste your order in the form (Ctrl+V)"
+cart.contact.form,Aller au formulaire de contact,Go to contact form
+
+# Footer
+footer.copyright,Musicien et Écrivain,Musician and Writer
+footer.description,Musique haptique et installations immersives - Romans de Science-fiction,Haptic music and immersive installations - Science fiction novels
+
+# Divers
+general.loading,Chargement...,Loading...
+general.error,Erreur,Error
+general.close,Fermer,Close
+

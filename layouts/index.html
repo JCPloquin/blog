@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="hero">
+	<div class="container">
+		<section class="news-highlight" id="a-la-une">
+		<h2>{{ i18n "news.title" }}</h2>
+		<div class="news-item">
+		<img src="/img/ascendance.png" alt="Ascendance" style="width: 48px; height: 48px; vertical-align: middle; margin-right: 8px; border-radius: 4px;">
+			<strong>Ascendance</strong> — {{ i18n "news.ascendance.text" }}
+<a href="https://jcploquin.itch.io/ascendance" class="button">{{ i18n "news.ascendance.button" }}</a>
+		</div>
+		</section>
+
+    </div>
+</section>
+<section class="content-section">
+    <div class="container">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
+

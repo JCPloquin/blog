@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="single-page">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+            <p class="article-meta">{{ .Date.Format (i18n "date.format") }}</p>
+        </header>
+        <div class="page-content markdown-content">
+            {{ .Content }}
+        </div>
+        
+        <!-- Navigation entre articles -->
+        {{ if or .NextInSection .PrevInSection }}
+        <nav class="article-nav">
+            {{ with .PrevInSection }}
+                <a href="{{ .RelPermalink }}" class="prev-article">← {{ .Title }}</a>
+            {{ end }}
+            {{ with .NextInSection }}
+                <a href="{{ .RelPermalink }}" class="next-article">{{ .Title }} →</a>
+            {{ end }}
+        </nav>
+        {{ end }}
+    </div>
+</article>
+{{ end }}
+

@@ -1,0 +1,103 @@
+banner.ag.subtitle: Science Fiction Writer
+banner.ag.title: Arthur Gyl
+banner.jcp.subtitle: Electroacoustic Composer
+banner.jcp.title: Jean-Christophe Ploquin
+blog.articles: Articles
+blog.no_articles: No articles at the moment.
+blog.published_on: Published on
+blog.read_more: Read more →
+blog.recent_articles: Recent Articles
+cart.add: Add to cart
+cart.added: has been added to cart!
+cart.contact.form: Go to contact form
+cart.continue: Continue shopping
+cart.copy.instructions: 1. Copy the text above (select + Ctrl+C)
+cart.copy.text: Copy this text
+cart.delivery.home: Home delivery
+cart.delivery.mode: Delivery mode
+cart.delivery.pickup: Pickup point
+cart.empty: Your cart is empty.
+cart.form.instructions: 2. Click the button below
+cart.order.title: Your order
+cart.paste.instructions: 3. Paste your order in the form (Ctrl+V)
+cart.price: Price
+cart.shipping.costs: Shipping costs
+cart.title: Your cart
+cart.total: Total to pay
+cart.validate: Validate cart
+contact.description: For any question, project or proposal, use the form below or
+  contact me via social networks.
+contact.rates.accommodation: Accommodation at the organizer's expense if the service
+  requires travel with overnight stay.
+contact.rates.additional: Travel, meal and accommodation expenses are in addition
+  to the fee.
+contact.rates.meals: 'Meal expenses: €20 per meal if not provided by the organizer'
+contact.rates.minimum: 'Minimum gross fee: €156 gross for a one-time engagement lasting
+  3 hours or less'
+contact.rates.policy: pas un loisir !"
+contact.rates.rehearsal: 'Rehearsal: €56 gross for a session up to 3 hours'
+contact.rates.title: Indicative Rates
+contact.rates.travel: 'Travel allowance: €0.50/km round trip, or reimbursement of
+  train/plane ticket in economy class.'
+contact.social.networks: Social Networks
+date.format: January 2, 2006
+footer.copyright: Musician and Writer
+footer.description: Haptic music and immersive installations - Science fiction novels
+games.adaptation.description: My video games are adaptations of my original works
+  created in interactive exhibitions in reality. A new medium where the listener is
+  active!
+games.audio.recommendation: Headphones or a 5.1 surround system is recommended.
+games.bilingual: All my games are bilingual French | English and available for Linux
+  and Windows.
+games.creator.description: Passionate about interactivity and storytelling, I design
+  video games where music, scenario and immersive experience come together.
+games.creator.title: Video Game Creator
+games.download.free: Free download
+games.my_games: My Games
+games.purpose: My purpose is to make the approach to contemporary music, particularly
+  acousmatic, playful through direct interaction.
+games.soon.available: Soon available
+general.close: Close
+general.error: Error
+general.loading: Loading...
+header.tagline: TWO FACES OF AN ARTIST
+literature.arthur.description: Passionate about imagination and future worlds, I explore
+  in my novels and short stories the boundaries between science, humanity and destiny.
+literature.arthur.title: 'Arthur Gyl: the other me'
+literature.books.sale: Books for sale
+literature.buy.epub: Buy epub
+literature.buy.paper: Buy paperback
+literature.cycle.title: The "From Death to Life" cycle
+literature.digital.description: For any paperbook purchase, send me your invoice or
+  receipt via the form and receive the epub version for free!
+literature.digital.offer: 'Special offer: digital version included'
+literature.extracts: Excerpts
+literature.shipping: + shipping
+music.albums.acousmatic: Acousmatic Albums
+music.albums.guitar: Guitar Albums
+music.ascendance.adaptive: Adaptive and immersive music
+music.ascendance.available: Soon available on itch.io
+music.ascendance.description: Take control of a time ship to explore genealogies.
+  Music adapts to each family tree in this unique game blending electroacoustic and
+  genealogy.
+music.ascendance.follow: Follow development on itch.io
+music.ascendance.gameplay: Innovative gameplay
+music.ascendance.title: Ascendance - Exclusive Teaser
+music.composer.description: Passionate about sound exploration and contemporary composition,
+  I develop a unique electroacoustic universe, blending immersive textures and interactive
+  experiments.
+music.composer.title: Electroacoustic Composer
+music.guitarist.description: 'Guitar is my other voice: from fingerpicking blues to
+  Celtic music, I explore strings like exploring worlds, always searching for new
+  colors and sonic freedom.'
+music.guitarist.title: Guitarist
+nav.biography: Biography
+nav.blog: Blog
+nav.contact: Contact
+nav.games: Video Games
+nav.home: Home
+nav.literature: Literature
+nav.music: Music
+news.ascendance.button: Download now
+news.ascendance.text: is now available! Take control of a time ship to explore any genealogy.
+news.title: Featured

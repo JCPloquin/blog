@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main class="content-section">
+  <h1>{{ .Title }}</h1>
+  <div>
+    {{ .Content }}
+  </div>
+  
+  {{ $pages := .Pages }}
+  {{ if $pages }}
+    <h2>{{ i18n "blog.articles" }}</h2>
+    {{ range $pages }}
+      <article class="blog-preview">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="article-meta">{{ .Date.Format (i18n "date.format") }}</p>
+        <div class="article-summary markdown-content">
+          {{ .Summary | markdownify }}
+        </div>
+        <a href="{{ .RelPermalink }}" class="read-more">{{ i18n "blog.read_more" }}</a>
+      </article>
+    {{ end }}
+  {{ else }}
+    <p><em>{{ i18n "blog.no_articles" }}</em></p>
+  {{ end }}
+</main>
+{{ end }}
+
