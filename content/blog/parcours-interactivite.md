@@ -1,6 +1,6 @@
 ---
 title: "Mon parcours vers l'interactivité musicale"
-date: 2025-06-13T10:00:00+02:00
+date: 2025-06-13T07:00:00+02:00
 draft: false
 categories: ["Musique", "Parcours", "Innovation"]
 tags: ["parcours artistique", "interactivité", "composition", "francis faber"]
