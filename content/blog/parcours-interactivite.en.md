@@ -1,6 +1,6 @@
 ---
 title: "My Journey Toward Musical Interactivity"
-date: 2025-06-13T11:00:00+02:00
+date: 2025-06-13T10:00:00+02:00
 draft: false
 categories: ["Music", "Journey", "Innovation"]
 tags: ["artistic journey", "interactivity", "composition", "francis faber"]
